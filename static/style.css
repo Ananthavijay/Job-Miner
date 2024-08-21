@@ -1,0 +1,90 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #000000;
+}
+
+h3 {
+	margin-top:15px;
+	font-size: 20px;
+}
+
+
+hr {
+	width:50%;
+	margin: auto;
+	border: solid 1px #2776f5;
+	background-color: #2776f5;
+	margin-bottom: 20px;
+}
+
+.fa-input { font-family: FontAwesome, ‘Helvetica Neue’, Helvetica, Arial, sans-serif; }
+
+.input {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.input label {
+	color: #2776f5;
+	margin-left: 10px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.input input {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+.input input:active {
+	border: 1px solid #2776f5;
+}
+
+.input.submit input {
+	color: #fff;
+	font-weight: 600;
+	background: #2776f5;
+	padding: 10px 20px;
+	transition: .3s all ease;
+	border: none;
+	width: 55px;
+}
+
+.input.submit input:hover {
+	background: #fff;
+	color: #2776f5;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	background: #2776f5;
+	padding: 10px 20px;
+	transition: .3s all ease;
+	border: none;
+}
+
+a:hover {
+	background: #fff;
+	color: #2776f5;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+	<div class="text-center my-5">
+		<h1>Job Search</h1>
+		<h3>Web scraping from indeed</h3>
+	</div>
+	<hr>
+
+	<form class="text-center" action="/results" method="POST">
+		<div class="input text">
+			{{ form.keyword.label }} {{ form.keyword(placeholder="Keywords, title or company", autocomplete="off")  }}
+			{{ form.location.label }} {{ form.location(placeholder="City, state or pincode", autocomplete="off") }}
+		</div>
+
+		<div class="input submit">
+			<input id="search" onclick="toggle()" type="submit" class="fa-input" value="&#xf002;">
+        </div>
+		<div class="input submit">
+			<input id="load" class="fa-input" style="display:none; margin-right: auto; margin-left: auto;" value="&#xf110;">
+        </div>
+	</form>
+
+    <script>
+	
+        function toggle() {
+            element1 = document.getElementById("search") ;
+			element2 = document.getElementById("load") ;
+			element1.style.display = "none";
+			element2.style.display = "block";
+        }
+
+    </script>
+
+{% endblock %}
