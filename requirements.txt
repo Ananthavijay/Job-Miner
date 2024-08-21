@@ -1,0 +1,7 @@
+flask
+wtforms
+requests
+bs4
+pandas
+boto3
+openpyxl
